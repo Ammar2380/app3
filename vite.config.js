@@ -6,6 +6,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [
     react(),
-    tailwindcss(), // this is enough
+    tailwindcss(),
   ],
+  base: './', // ✅ important for relative paths in production (Vercel)
 })
