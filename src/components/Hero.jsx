@@ -79,16 +79,16 @@ export default function Hero() {
         >
           <div className="text-center w-auto flex justify-center md:justify-start items-center">
             <h1 className="px-6 font-semibold mb-3 rounded-4xl text-center py-1 text-sm border border-[#C6FD07]">
-              HayViral Digital Agency
+              HayViral AI SaaS
             </h1>
           </div>
 
-          <h1 className="text-center md:w-130 md:text-left md:text-5xl font-outfit text-3xl font-bold">
-            5x Your Growth Turn Clicks into Customers
+          <h1 className="text-center md:w-130 md:text-left md:text-4xl font-outfit text-xl font-bold">
+             5x Your Growth with Smarter Automation. Grow Faster. Scale Better.
           </h1>
 
-          <p className="mt-3 text-center md:text-left text-white font-outfit leading-tight md:leading-normal text-base md:text-base md:w-124">
-            Digital solutions built for Entrepreneurs and their businesses because you deserve big results without the big agency price tag.
+          <p className="mt-3 text-center md:text-left text-white font-outfit leading-tight md:leading-normal text-sm md:text-base md:w-124">
+            AI-powered solutions built for modern businesses  helping you reduce manual work, improve customer interactions, and grow without complexity or high costs.
           </p>
 
           {/* CTA + SLIDING LOGOS */}

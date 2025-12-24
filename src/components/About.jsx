@@ -8,7 +8,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 xl:grid-cols-2 gap-8 md:gap-12 xl:gap-16 items-start py-4 md:py-6 xl:p-10">
         
         {/* LEFT */}
-        <div className="flex flex-col gap-6 sm:gap-11 md:gap-8 space-y-2 md:space-y-0 sm:space-y-3">
+        <div className="flex flex-col gap-6 sm:gap-11 md:gap-8 space-y-2 md:space-y-3sm:space-y-3">
           
           {/* About + Arrow */}
           <div className="flex items-start gap-10 sm:gap-6 md:gap-8 xl:gap-11 h-auto">
@@ -38,7 +38,7 @@ export default function About() {
                 <p className="flex items-center gap-1.5 sm:gap-3 text-white text-[10px] sm:text-sm md:text-base whitespace-nowrap">
                   CEO & Founder 
                   <a 
-                    href="https://www.instagram.com/ajaychauhan.designer?igsh=emN5bmt4aXVvbDNm" 
+                    href="https://www.instagram.com/ajaychauhan.arc?igsh=OXZqOTVnZXFjMzdp" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="inline-flex"
@@ -73,13 +73,16 @@ export default function About() {
         {/* RIGHT */}
         <div className="space-y-3 sm:space-y-4 md:space-y-5 xl:space-y-4 w-full">
           <h2 className="text-2xl sm:text-2xl md:text-3xl xl:text-3xl font-extrabold leading-tight">
-            Helping entrepreneurs & their businesses Go Big Online
+       Helping Businesses Scale with AI & Automation
+
           </h2>
           <h3 className="text-base sm:text-lg md:text-xl xl:text-2xl leading-tight font-medium text-gray-200">
-            We're your creative partner in building an online presence that doesn't just look good it grows you online.
+            We build intelligent systems that don’t just look good  they work smarter for your business.
           </h3>
-          <p className="text-sm sm:text-base md:text-base xl:text-base text-gray-300 leading-relaxed">
-            At HayViral, we understand the unique challenges businesses face in today's digital first world. That's why we're committed to providing affordable, customized solutions that make a real difference. From eye catching websites to strategies that drive traffic and sales, our mission is simple: help you compete and win online.
+          <p className="text-sm sm:text-base md:text-sm xl:text-base text-gray-300 leading-tight">
+             At HayViral, we help businesses simplify operations, improve customer experiences, and scale efficiently using AI-driven solutions. We focus on building automation-first platforms that reduce manual effort, unify workflows, and give businesses more control over their data and processes.
+Instead of disconnected tools and repetitive tasks, we design systems that centralize communication, automate responses, and provide real-time insights. Our goal is simple: help businesses operate smarter, save time, reduce costs, and grow sustainably in a digital-first world.
+
           </p>
         </div>
       </div>

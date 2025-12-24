@@ -21,10 +21,10 @@ export default function HowWeWork() {
 
         <div className=" ">
           <h1 className="text-2xl s md:text-4xl font-bold leading-tight text-[#ffff] text-center">
-            A Simple Process for Big Results
+            A Clear Process Built for Results
           </h1>
           <p className="text-center text-sm p-2.5 font-extralight leading-tight opacity-70 text-[#ffff] ">
-            We keep things clear, transparent, and focused on your success.
+            Simple, transparent, and focused on outcomes.
           </p>
         </div>
       </div>
@@ -34,19 +34,19 @@ export default function HowWeWork() {
   {[
     {
       title: "Discover",
-      desc: "We learn about your business, goals, and audience.",
+      desc: "We understand your business, challenges, and goals.",
     },
     {
       title: "Plan",
-      desc: "We craft a digital strategy tailored to your needs.",
+      desc: " We design a solution tailored to your workflows and growth plans.",
     },
     {
       title: "Create",
-      desc: "Our team designs, builds, and launches your campaigns.",
+      desc: "We build, test, and launch with precision.",
     },
     {
       title: "Grow",
-      desc: "We track, optimize, and scale what works.",
+      desc: "We monitor, optimize, and improve as your business scales.",
     },
   ].map((item, i) => (
     <div

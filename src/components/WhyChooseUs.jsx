@@ -17,11 +17,11 @@ export default function WhyChooseUs() {
         </span>
 
         <h2 className="text-3xl md:text-4xl font-bold mt-6">
-          Big Agency Skills. Business Care.
+         Smart Systems. Real Business Impact.
         </h2>
 
         <p className="text-gray-300 mt-3">
-          We’re not just another digital agency we’re a partner who gets it.
+          We’re not just a service provider we build solutions that work for you.
         </p>
       </div>
 
@@ -39,10 +39,10 @@ export default function WhyChooseUs() {
         
         <div className="w-full space-y-6 mt-8">
           {[
-            "Affordable, customized packages tailored for small businesses.",
-            "Proven expertise across SEO, development, branding, and marketing.",
-            "A creative team that treats your business like our own.",
-            "No confusing jargon just clear strategies and real results.",
+            "Automation-focused solutions that reduce manual work.",
+            "Clear strategies without unnecessary complexity.",
+            "Systems designed for scalability and long-term growth.",
+            "A team that understands both business and technology.",
           ].map((text, i) => (
             <div
               key={i}

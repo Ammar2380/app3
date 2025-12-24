@@ -85,11 +85,12 @@ export default function DemoPage() {
 
 
           <div className="block md:block text-center  mt-4 px-5">
-  <h2 className="text-lg  w-70 md:w-200  md:text-5xl font-bold text-white">
-    Big Agency Skills. Business Care.
+  <h2 className="text-lg text-center w-70     md:w-200  md:text-4xl font-bold text-white">
+    Proof That Our Work Delivers Results
+
   </h2>
-  <p className="text-gray-300 text-sm md:text-lg ">
-    We’re not just another digital agency, we’re a partner who gets it.
+  <p className="text-gray-300  md:w-200 text-sm md:text-lg ">
+    Every project we take on is focused on solving real problems and creating measurable impact. Our work helps businesses improve visibility, streamline operations, and build stronger connections with their customers through thoughtful design, automation, and strategy.
   </p>
 </div>
 

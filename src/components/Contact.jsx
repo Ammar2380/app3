@@ -78,7 +78,7 @@ export default function Contact() {
         </h1>
 
         <p className="text-white/70 text-sm">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione incidunt quaerat pariatur ut temporibus nobis labore voluptatibus. Obcaecati, quidem totam quaerat fugit voluptatem nobis atque cupiditate voluptatibus. Expedita, at temporibus?
+      We help brands and startups build a powerful online presence through smart design, scalable web solutions, and AI-driven automation. From idea to execution, we turn your vision into measurable growth.
         </p>
 
        <button >
@@ -129,10 +129,10 @@ export default function Contact() {
             ref={serviceRef}
             className="p-3 rounded-lg bg-transparent border border-white/30 text-white focus:outline-none focus:border-[#C6FD07] text-sm"
           >
-            <option value="" className="text-black">Services*</option>
-            <option className="text-black">Graphic Design</option>
-            <option className="text-black">Web Development</option>
-            <option className="text-black">Digital Marketing</option>
+            <option value="" className="text-black">Automation*</option>
+            <option className="text-black">AI SaaS Products</option>
+            <option className="text-black">Branding & Graphic Design</option>
+            <option className="text-black">Marketing</option>
           </select>
 
           <textarea

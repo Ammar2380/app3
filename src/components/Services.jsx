@@ -7,51 +7,111 @@ import Squares from "./AI_Component";
 // Cloudinary videos
 const videos = {
   branding: "https://res.cloudinary.com/dyrncskbs/video/upload/Branding_wcpedv.mp4",
-  uiDesign: "https://res.cloudinary.com/dyrncskbs/video/upload/ui_design_xczut2.mp4",
+  uiDesign: "https://res.cloudinary.com/dyrncskbs/video/upload/v1762100907/SEO_brukmq.mp4",
   digitalMarketing: "https://res.cloudinary.com/dyrncskbs/video/upload/Digital_Marketing_uvh3ke.mp4",
   webDevelopment: "https://res.cloudinary.com/dyrncskbs/video/upload/ui_design_xczut2.mp4",
 };
 
 // Services data
 const servicesData = {
-  branding: {
-    title: "Branding",
-    video: videos.branding,
-    tabs: [
-      { name: "Brand Identity", heading: "Define How Your Audience Sees You", desc: "We create a complete identity system that includes your logo, color palette, typography, brand voice, and visual direction — all designed to communicate your essence clearly and consistently. This helps you build instant recognition, emotional connection, and credibility across every platform." },
-      { name: "Print Media", heading: "Physical Presence That Lasts", desc: "Print Media brings your brand into the physical world with materials that leave a lasting impression. From business cards and brochures to packaging and event materials, we design cohesive print assets that reflect your brand’s personality and values." },
-      { name: "Motion Graphics", heading: "Bring Your Brand to Life", desc: "Motion Graphics turn your brand story into captivating visual experiences. We design dynamic animations, logo intros, and social media motion content that grab attention and keep viewers engaged." },
-      { name: "Digital Brand Presence", heading: "Consistency Across Platforms", desc: "Digital Brand Presence ensures your brand looks and feels consistent across every online platform. We develop social media branding kits, cover designs, post templates, and digital guidelines that make your brand instantly recognizable." },
-    ],
-  },
-  webDevelopment: {
-    title: "Web Development",
+  automation: {
+    title: "Automation",
     video: videos.webDevelopment,
     tabs: [
-      { name: "WordPress", heading: "Flexible & SEO-Optimized Sites", desc: "Our WordPress development service gives you a powerful, flexible, and easy-to-manage website tailored to your business goals. Fully responsive, SEO-optimized, and scalable, built to convert visitors into clients." },
-      { name: "Shopify", heading: "Turn Traffic into Sales", desc: "We design and build conversion-optimized Shopify stores with custom layouts, integrated payment systems, and engaging product displays. A professional, mobile-friendly store built to grow your brand." },
-      { name: "Custom Development", heading: "Unique Digital Experiences", desc: "From advanced functionalities to interactive landing pages, we develop tailored solutions that align perfectly with your goals. Full control, performance, and scalability to make your website stand out." },
-      { name: "UI Design", heading: "Beautiful, User-Friendly Interfaces", desc: "Our UI Design service focuses on visually striking, user-friendly interfaces that keep visitors engaged and make navigation effortless. Every design element serves a purpose and elevates your user experience." },
-    ],
+      {
+        name: "Business Process Automation",
+        heading: "Eliminate Repetitive Work",
+        desc: "We design automation systems that remove repetitive tasks from daily operations. From customer inquiries and order flows to internal processes and follow-ups, our automation helps businesses save time, reduce workload, and operate more efficiently."
+      },
+      {
+        name: "Workflow & Channel Integration",
+        heading: "One Unified System",
+        desc: "We connect websites, WhatsApp, social platforms, and internal tools into a single automated workflow. This ensures faster responses, better coordination, and a seamless experience for both customers and teams."
+      },
+      {
+        name: "Smart Reporting & Insights",
+        heading: "Data That Works for You",
+        desc: "Our automation systems generate real-time reports and insights automatically. Businesses gain clear visibility into operations, customer behavior, and performance trends to support smarter decision-making."
+      }
+    ]
   },
+
+  aiSaaS: {
+    title: "AI SaaS Products",
+    video: videos.uiDesign,
+    tabs: [
+      {
+        name: "AI Chatbot Solutions",
+        heading: "Smart, Context-Aware Conversations",
+        desc: "Our AI chatbots handle customer conversations across multiple channels using natural, context-aware interactions. They manage inquiries, bookings, support, and basic transactions while reducing manual workload."
+      },
+      {
+        name: "AI-Powered Business Tools",
+        heading: "Intelligent Systems for Growth",
+        desc: "We build AI-enabled tools that centralize customer interactions, workflows, and data. Designed to adapt across industries, these tools evolve as your business grows."
+      },
+      {
+        name: "Scalable SaaS Infrastructure",
+        heading: "Built for the Long Term",
+        desc: "Our AI SaaS products are designed for scalability. Start with core features and expand over time without rebuilding systems—ensuring flexibility, cost efficiency, and future readiness."
+      }
+    ]
+  },
+
+  branding: {
+    title: "Branding & Graphic Design",
+    video: videos.branding,
+    tabs: [
+      {
+        name: "Brand Identity Design",
+        heading: "Build Recognition & Trust",
+        desc: "We create cohesive brand identities including logos, color systems, typography, and brand guidelines. Every element is crafted to communicate clarity, credibility, and consistency across all platforms."
+      },
+      {
+        name: "Graphic Design",
+        heading: "Design That Supports Growth",
+        desc: "From social media creatives and marketing visuals to print materials and presentations, we design assets that align with your brand and strengthen recognition."
+      },
+      {
+        name: "Visual Consistency",
+        heading: "Consistency Across Every Touchpoint",
+        desc: "We establish clear visual guidelines so your brand maintains a professional, consistent look across all platforms as it grows."
+      }
+    ]
+  },
+
   digitalMarketing: {
-    title: "Digital Marketing",
+    title: "Marketing",
     video: videos.digitalMarketing,
     tabs: [
-      { name: "Content Creation", heading: "Engaging & High-Performing Assets", desc: "We craft scroll-stopping videos, graphics, and written content designed to capture attention and build trust across every platform. Platform-optimized content that fuels awareness, engagement, and conversions." },
-      { name: "Paid Ads", heading: "Generate Leads & Sales", desc: "We design, launch, and optimize ad campaigns across Meta, Google, TikTok, and LinkedIn to ensure every dollar spent brings measurable returns. Scalable and predictable growth without wasted ad spend." },
-      { name: "EGC & UGC", heading: "Authentic Storytelling", desc: "Through Employee-Generated and User-Generated Content, we turn your team and customers into storytellers. Capturing real experiences that build trust, engagement, and stronger community connection." },
-      { name: "Lead Gen", heading: "Consistent, Qualified Prospects", desc: "We combine data-driven targeting, optimized funnels, and persuasive creative to attract, capture, and nurture leads effectively. A clear system for conversion that keeps your business growing month after month." },
-    ],
-  },
+      {
+        name: "Content Creation",
+        heading: "Content That Drives Action",
+        desc: "We create strategic content—from short-form videos to branded visuals—designed to capture attention, communicate value, and align with audience behavior."
+      },
+      {
+        name: "Paid Advertising",
+        heading: "Performance-Driven Growth",
+        desc: "We run AI-assisted UGC and ad campaigns optimized for conversion. Campaigns are tested, refined, and scaled to maximize results while controlling ad spend."
+      },
+      {
+        name: "Lead Generation Systems",
+        heading: "From Interest to Conversion",
+        desc: "We build complete lead generation systems using targeted campaigns, conversion-focused landing pages, and automated follow-ups—delivering consistent, qualified leads."
+      }
+    ]
+  }
 };
 
 export default function ServicesPage() {
   const [activeTabs, setActiveTabs] = useState({
-    branding: 0,
-    webDevelopment: 0,
-    digitalMarketing: 0,
-  });
+  automation: 0,
+  aiSaaS: 0,
+  branding: 0,
+  digitalMarketing: 0
+});
+
+
 
   const handleTabClick = (serviceKey, index) => {
     setActiveTabs((prev) => ({ ...prev, [serviceKey]: index }));
@@ -72,10 +132,11 @@ export default function ServicesPage() {
             Services
           </h1>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-outfit leading-tight">
-            Digital Services That Drive Growth
+         Solutions Designed for Automation, AI & Growth
           </h2>
           <p className="mt-1 text-base sm:text-lg md:text-xl opacity-70 font-outfit text-[#c2c2c2] max-w-xl mx-auto leading-tight font-extralight">
-            From first impressions to long-term engagement, we cover everything your business needs to succeed online.
+          We help businesses streamline operations, improve customer experiences, and scale using automation, AI-powered products, and performance-driven marketing.
+
           </p>
         </div>
 
